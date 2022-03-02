@@ -3,4 +3,4 @@ FROM cirrusci/flutter:stable
 # RUN gem install bundler -NV 
 # RUN gem install fastlane -NV
 RUN flutter doctor
-RUN flutter build apk
+
