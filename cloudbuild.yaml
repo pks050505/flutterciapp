@@ -11,7 +11,6 @@
 steps:
 
 - name: 'gcr.io/api-5129952988619103295-268307/flutterciapp:2.0'
-  
   args: ["cd ", "android " "&&", "\", "bundle exec fastlane test" ] 
   
 
