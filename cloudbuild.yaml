@@ -2,11 +2,11 @@
 
  - name: 'gcr.io/api-5129952988619103295-268307/flutterciapp:2.0'
   
-   args: 
-   - '-c'
-   - |
-     cd android && \
-     ./gradlew clean
+   args: ['flutter build apk']
+#    - '-c'
+#    - |
+#      cd android && \
+#      ./gradlew clean
 
 
 
