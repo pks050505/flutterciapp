@@ -5,8 +5,8 @@
    args: 
    - '-c'
    - |
-      cd android ।। \
-      bundle exec fastlane test
+      cd android && \
+     ./gradlew clean
 
 
 
