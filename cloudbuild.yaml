@@ -1,3 +1,8 @@
 steps:
 - name: 'gcr.io/api-5129952988619103295-268307/flutterciapp:1.1'
-  args: ['flutter', 'build', 'apk']
+  entrypoint: /bin/bash
+  args: 
+  - '-c'
+  - |
+     cd android && \
+     fastlane test
