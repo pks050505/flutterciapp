@@ -5,7 +5,7 @@
    args: 
    - '-c'
    - |
-      cd android && \
+     cd android && \
      ./gradlew clean
 
 
