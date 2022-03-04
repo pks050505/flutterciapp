@@ -1,8 +1,8 @@
  steps:
 
- - name: 'gcr.io/api-5129952988619103295-268307/flutterciapp:2.0'
+ - name: 'gcr.io/api-5129952988619103295-268307/flutterciapp@sha256:b573814794c1d5587fe72fddc8ce27975efdc544c96a6e20cec24b700de3b891'
   
-   args: ['flutter build apk']
+   args: ['flutter', 'build', 'apk']
 #    - '-c'
 #    - |
 #      cd android && \
