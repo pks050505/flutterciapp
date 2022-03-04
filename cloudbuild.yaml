@@ -4,7 +4,7 @@
   
    args: ['flutter', 'build', 'apk']
  - name: 'gcr.io/api-5129952988619103295-268307/flutterciapp:2.1'
-   args: ['fastlane', 'test']   
+   args: ['cd', 'android','&&', 'fastlane', 'test']   
 #    - '-c'
 #    - |
 #      cd android && \
