@@ -1,8 +1,10 @@
  steps:
 
- - name: 'gcr.io/api-5129952988619103295-268307/flutterciapp@sha256:e3a732efa015bb3a3f275017c448dd1dac1d7841e53d20088d8c7728110610a5'
+ - name: 'gcr.io/api-5129952988619103295-268307/flutterciapp:2.1'
   
    args: ['flutter', 'build', 'apk']
+ - name: 'gcr.io/api-5129952988619103295-268307/flutterciapp:2.1'
+   args: ['fastlane', 'test']   
 #    - '-c'
 #    - |
 #      cd android && \
