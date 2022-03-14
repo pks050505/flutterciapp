@@ -1,0 +1,5 @@
+storePassword=password1
+keyPassword=password1
+keyAlias=signinkey
+storeFile=/home/linux/Desktop/fluttercikey.jks
+
